@@ -6,8 +6,8 @@ feature_image: "https://picsum.photos/2560/600?image=873"
 excerpt: " "
 aside: true
 ---  
-.
-# Youngki Moon
+  
+# YOUNGKI MOON
 Research Interest - Question Answering  
 Interested in the issue of extracting questions and answers from huge amount of document.
 
