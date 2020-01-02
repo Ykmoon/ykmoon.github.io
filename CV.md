@@ -1,12 +1,13 @@
 ---
-title:  
+title:  YOUNGKI MOON
 feature_text: |
   Curriculum Vitae
 feature_image: "https://picsum.photos/2560/600?image=873"
 excerpt: " "
 aside: true
+---  
 
-# YOUNGKI MOON
+
 Research Interest - Question Answering  
 Interested in the issue of extracting questions and answers from huge amount of document.
 
