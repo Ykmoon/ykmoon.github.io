@@ -34,6 +34,7 @@ plugins:
 - jekyll-commonmark
 - jekyll-include-cache
 - jemoji
+- jekyll-polyglot
 
 # 3. Gem settings
 paginate: 5 # jekyll-paginate > items per page
@@ -81,7 +82,12 @@ defaults:
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
-lang: en-GB # Set the site language
+#lang: en-GB # Set the site language
+languages: ["en", "ko"] # 지원하고자 하는 언어
+default_lang: "ko" # 컨텐츠의 기본 언어
+exclude_from_localization: ["image"] # 루트 레벨 폴더 중 다국어 기능 제외 시킬 폴더
+parallel_localizaion: false # 윈도우에서는 버그가 있어서 false로 해야 동작한다고 합니다.
+
 title: "Yk's blog" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "NLP Researcher Yk's blog" # Site description and default description, also used in jekyll-seo-tag
